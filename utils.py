@@ -1,10 +1,10 @@
 import openai
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit as st
 
-load_dotenv()
+#load_dotenv()
 secret_key = st.secrets["OPENAI_API_KEY"] # for deployment on streamlit
 client = OpenAI(api_key = secret_key)
 
