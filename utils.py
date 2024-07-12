@@ -5,8 +5,7 @@ from dotenv import load_dotenv
 import streamlit as st
 
 load_dotenv()
-#secret_key = st.secrets["OPENAI_KEY"] # for deployment on streamlit
-secret_key = "sk-proj-LXZR3uX43mNVSQRNnBxTT3BlbkFJToyxGtdqwigB15tqLkYX"
+secret_key = st.secrets["OPENAI_API_KEY"] # for deployment on streamlit
 client = OpenAI(api_key = secret_key)
 
 
