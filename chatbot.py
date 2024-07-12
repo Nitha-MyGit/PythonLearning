@@ -10,7 +10,8 @@ model = st.selectbox(
     "Select your model",
     (
         "gpt-3.5-turbo",
-        "gpt-4o"
+        "gpt-4o",
+        "ft:gpt-3.5-turbo-0125:the-developer-academy::9kBx3Cfo"
     ),
 )
 
